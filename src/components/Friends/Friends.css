@@ -1,0 +1,24 @@
+.friend-list {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    flex-direction: column;
+    margin: 0 auto;
+    width: 200px;
+}
+
+.FriendListItem {
+    margin-top: 30px;
+    border: 2px solid black;
+    border-radius: 4px;
+    background-color: rgba(128, 128, 128, 0.407);
+    box-shadow: 0 0 5px rgb(128, 128, 128);
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+.FriendAvatar {
+    margin-left: 20px;
+}
