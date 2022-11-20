@@ -1,0 +1,26 @@
+.statistics {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.statList {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgba(128, 128, 128, 0.099);
+}
+
+.title {
+  margin-bottom: 10px;
+}
+
+.statisticsItem {
+  width: 50px;
+  padding: 5px;
+  display: block;
+  border: 1px solid white;
+}
